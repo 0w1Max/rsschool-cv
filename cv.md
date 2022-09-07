@@ -7,7 +7,7 @@
 * **Discord:** 0w1Max#1900
 
 ## About me
-* I am 31 years old and I am from Moscow. When I got my first computer, I started learning HTML and CSS. It has become my favorite hobby. Then I discovered the amazing world of programming and started learning different languages in my spare time. A lot of time has passed, but my work was not related to IT. Now my goal is to become a full-fledged specialist in the field of web technologies. I really like to create something new and interesting.
+I am 31 years old and I am from Moscow. When I got my first computer, I started learning HTML and CSS. It has become my favorite hobby. Then I discovered the amazing world of programming and started learning different languages in my spare time. A lot of time has passed, but my work was not related to IT. Now my goal is to become a full-fledged specialist in the field of web technologies. I really like to create something new and interesting.
 
 ## My skills
 * HTML5
@@ -37,3 +37,6 @@
     return arr;
   }
 ```
+
+## Education
+* **HTML ACADEMY:** [learning project](https://github.com/0w1Max/93718-kekstagram-25)
