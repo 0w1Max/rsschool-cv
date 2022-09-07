@@ -39,4 +39,8 @@ I am 31 years old and I am from Moscow. When I got my first computer, I started 
 ```
 
 ## Education
-* **HTML ACADEMY:** [learning project](https://github.com/0w1Max/93718-kekstagram-25)
+* **HTML ACADEMY:** [Kekstagram(learning project)](https://github.com/0w1Max/93718-kekstagram-25)
+
+## Languages:
+* Russian - native
+* English - A2(studying)
