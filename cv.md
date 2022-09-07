@@ -20,3 +20,20 @@
 * Git
 * Adobe Photoshop
 * Figma
+
+## Code Example
+```javascript
+  function myLanguages(results) {
+    const arr = [];
+
+    for (key in results) {
+      if (results[key] >= 60) {
+        arr.push(key)
+      }
+    }
+  
+    arr.sort((first, second) => results[second] - results[first]);
+
+    return arr;
+  }
+```
