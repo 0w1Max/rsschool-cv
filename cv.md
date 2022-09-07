@@ -8,3 +8,15 @@
 
 ## About me
 * I am 31 years old and I am from Moscow. When I got my first computer, I started learning HTML and CSS. It has become my favorite hobby. Then I discovered the amazing world of programming and started learning different languages in my spare time. A lot of time has passed, but my work was not related to IT. Now my goal is to become a full-fledged specialist in the field of web technologies. I really like to create something new and interesting.
+
+## My skills
+* HTML5
+* CSS3
+* SASS
+* JavaScript(Junior)
+* PHP(Basic)
+* Gulp
+* Webpack
+* Git
+* Adobe Photoshop
+* Figma
