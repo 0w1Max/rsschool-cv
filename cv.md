@@ -24,7 +24,8 @@ I am 31 years old and I am from Moscow. When I got my first computer, I started 
 * Figma
 
 ## Code Example
-```const query: string = 'category=cars&color=black&year=2022';
+```
+const query: string = 'category=cars&color=black&year=2022';
 
 function getParams (query: string) {
   const splitQuery = query.split('&');
