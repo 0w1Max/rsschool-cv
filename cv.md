@@ -14,6 +14,8 @@ I am 31 years old and I am from Moscow. When I got my first computer, I started 
 * CSS3
 * SASS
 * JavaScript(Junior)
+* TypeScript(Junior)
+* React(Junior)
 * PHP(Basic)
 * Gulp
 * Webpack
