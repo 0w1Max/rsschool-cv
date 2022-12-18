@@ -74,25 +74,25 @@
       <section class="info info--example" id="example">
         <h2>Code Example</h2>
         <pre class="example__text">
-<code>
-  const query: string = 'category=cars&color=black&year=2022';
+          <code>
+const query: string = 'category=cars&color=black&year=2022';
 
-  function getParams (query: string) {
-    const splitQuery = query.split('&');
-    const init: any = {};
+function getParams (query: string) {
+  const splitQuery = query.split('&');
+  const init: any = {};
 
-    const result = splitQuery.reduce((acc, item) => {
-      const [key, value] = item.split('=');
-      acc[key] = value;
+  const result = splitQuery.reduce((acc, item) => {
+    const [key, value] = item.split('=');
+    acc[key] = value;
 
-      return acc;
-    }, init)
+    return acc;
+  }, init)
 
-    return result;
-  }
+  return result;
+}
 
-  getParams(query);
-</code>
+getParams(query);
+          </code>
         </pre>
       </section>
       <section class="info info--education" id="education">
