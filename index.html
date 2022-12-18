@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>My CV Page</title>
+  </head>
+  <body>
+    <header class="header wrapper">
+      <div class="logo header__logo">
+        <img class="logo__img" src="images/logo.jpg" alt="Logo">
+        <span class="logo__text logo__text--name">Maxim Krupetskov</span>
+        <span class="logo__text logo__text--career">Junior Frontend Developer</span>
+      </div>
+      <nav class="menu header__menu">
+        <ul class="menu__list">
+          <li class="menu__item">
+            <a class="menu__link" href="#about-me">About me</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#skills">Skills</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#example">Example</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#education">Education</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#languages">Languages</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#contacts">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="content wrapper">
+      <section class="info info--about-me" id="about-me">
+        <h2>About me</h2>
+        <p class="about-me__text">I am 31 years old and I am from Moscow. When I got my first computer, I started learning HTML and CSS.
+          It has become my favorite hobby. Then I discovered the amazing world of programming and started
+          learning different languages in my spare time. A lot of time has passed, but my work was not related
+          to IT. Now my goal is to become a full-fledged specialist in the field of web technologies.
+          I really like to create something new and interesting.</p>
+      </section>
+      <section class="info info--skills" id="skills">
+        <h2>My skills</h2>
+        <ul class="skills__text">
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>SASS</li>
+          <li>JavaScript(Junior)</li>
+          <li>TypeScript(Junior)</li>
+          <li>React(Junior)</li>
+          <li>PHP(Basic)</li>
+          <li>Gulp</li>
+          <li>Webpack</li>
+          <li>Git</li>
+          <li>Adobe Photoshop</li>
+          <li>Figma</li>
+        </ul>
+      </section>
+      <section class="info info--example" id="example">
+        <h2>Code Example</h2>
+        <pre class="example__text">
+          <code>
+const query: string = 'category=cars&color=black&year=2022';
+
+function getParams (query: string) {
+  const splitQuery = query.split('&');
+  const init: any = {};
+
+  const result = splitQuery.reduce((acc, item) => {
+    const [key, value] = item.split('=');
+    acc[key] = value;
+
+    return acc;
+  }, init)
+
+  return result;
+}
+
+getParams(query);
+          </code>
+        </pre>
+      </section>
+      <section class="info info--education" id="education">
+        <h2>Education</h2>
+        <ul class="education__text">
+          <li><a href="https://github.com/0w1Max/93718-kekstagram-25">HTML ACADEMY: Kekstagram(learning project)</a></li>
+          <li><a href="https://rs.school/js/">RS School</a></li>
+          <li><a href="https://code-basics.com/ru">Code Basics</a></li>
+        </ul>
+      </section>
+      <section class="info info--languages" id="languages">
+        <h2>Languages</h2>
+        <ul class="languages__text">
+          <li>Russian - native</li>
+          <li>English - A2(studying)</li>
+        </ul>
+      </section>
+      <section class="info info--contacts" id="contacts">
+        <h2>Contacts</h2>
+        <ul class="contacts__text">
+          <li>E-mail: <a href="mailto:0w1.go.0w1@gmail.com">0w1.go.0w1@gmail.com</a></li>
+          <li>GitHub: <a href="https://github.com/0w1Max">0w1Max</a></li>
+          <li>Telegram: <a href="https://t.me/Ow1max">Ow1Max</a></li>
+          <li>Discord: 0w1Max#1900</li>
+        </ul>
+      </section>
+    </main>
+    <footer class="footer wrapper">
+      <span class="footer__text">Made</span>
+      <a class="footer__link" href="https://github.com/0w1Max">
+        <img src="/images/logo-github-w.png" alt="GitHub 0w1Max" width="50">
+      </a>
+      <span class="footer__text">with</span>
+      <a class="footer__link" href="https://rs.school/js/">
+        <img src="https://alexandrdrozdfd.github.io/rsschool-cv/assets/icons/rss.svg" alt="RS School logo" width="100">
+      </a>
+      <span class="footer__text">in 2022</span>
+    </footer>
+  </body>
+</html>
