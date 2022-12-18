@@ -1,4 +1,44 @@
 body {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  justify-items: center;
+  align-items: center;
+  background-color: #353535;
+}
+
+.logo__text {
+  color: #fff;
+}
+
+.menu__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu__link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header__contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
