@@ -14,6 +14,8 @@ I am 31 years old and I am from Moscow. When I got my first computer, I started 
 * CSS3
 * SASS
 * JavaScript(Junior)
+* TypeScript(Junior)
+* React(Junior)
 * PHP(Basic)
 * Gulp
 * Webpack
@@ -22,20 +24,24 @@ I am 31 years old and I am from Moscow. When I got my first computer, I started 
 * Figma
 
 ## Code Example
-```javascript
-  function myLanguages(results) {
-    const arr = [];
+```
+const query: string = 'category=cars&color=black&year=2022';
 
-    for (key in results) {
-      if (results[key] >= 60) {
-        arr.push(key)
-      }
-    }
-  
-    arr.sort((first, second) => results[second] - results[first]);
+function getParams (query: string) {
+  const splitQuery = query.split('&');
+  const init: any = {};
 
-    return arr;
-  }
+  const result = splitQuery.reduce((acc, item) => {
+    const [key, value] = item.split('=');
+    acc[key] = value;
+
+    return acc;
+  }, init)
+
+  return result;
+}
+
+getParams(query);
 ```
 
 ## Education
