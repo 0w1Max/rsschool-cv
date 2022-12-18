@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <title>My CV Page</title>
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>My CV Page</title>
+  </head>
   <body>
     <header class="header wrapper">
       <div class="logo header__logo">
@@ -43,8 +43,80 @@
         </li>
       </ul>
     </header>
-    <main class="content">
+    <main class="content wrapper">
+      <section class="info info--about-me">
+        <h2>About me</h2>
+        <p class="about-me__text">I am 31 years old and I am from Moscow. When I got my first computer, I started learning HTML and CSS.
+          It has become my favorite hobby. Then I discovered the amazing world of programming and started
+          learning different languages in my spare time. A lot of time has passed, but my work was not related
+          to IT. Now my goal is to become a full-fledged specialist in the field of web technologies.
+          I really like to create something new and interesting.</p>
+      </section>
+      <section class="info info--skills">
+        <h2>My skills</h2>
+        <ul class="skills__text">
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>SASS</li>
+          <li>JavaScript(Junior)</li>
+          <li>TypeScript(Junior)</li>
+          <li>React(Junior)</li>
+          <li>PHP(Basic)</li>
+          <li>Gulp</li>
+          <li>Webpack</li>
+          <li>Git</li>
+          <li>Adobe Photoshop</li>
+          <li>Figma</li>
+        </ul>
+      </section>
+      <section class="info info--example">
+        <h2>Code Example</h2>
+        <pre class="example__text">
+<code>
+  const query: string = 'category=cars&color=black&year=2022';
 
+  function getParams (query: string) {
+    const splitQuery = query.split('&');
+    const init: any = {};
+
+    const result = splitQuery.reduce((acc, item) => {
+      const [key, value] = item.split('=');
+      acc[key] = value;
+
+      return acc;
+    }, init)
+
+    return result;
+  }
+
+  getParams(query);
+</code>
+        </pre>
+      </section>
+      <section class="info info--education">
+        <h2>Education</h2>
+        <ul class="education__text">
+          <li>HTML ACADEMY: Kekstagram(learning project)](https://github.com/0w1Max/93718-kekstagram-25)</li>
+          <li>RS School</li>
+          <li>Code Basics: https://code-basics.com/ru</li>
+        </ul>
+      </section>
+      <section class="info info--languages">
+        <h2>Languages</h2>
+        <ul class="languages__text">
+          <li>Russian - native</li>
+          <li>English - A2(studying)</li>
+        </ul>
+      </section>
+      <section class="info info--contacts">
+        <h2>Contacts</h2>
+        <ul class="contacts__text">
+          <li>E-mail: 0w1.go.0w1@gmail.com(mailto:0w1.go.0w1@gmail.com)</li>
+          <li>GitHub: [0w1Max](https://github.com/0w1Max)</li>
+          <li>Telegram: [0w1Max](https://t.me/Ow1max)</li>
+          <li>Discord: 0w1Max#1900</li>
+        </ul>
+      </section>
     </main>
     <footer class="footer">
       
